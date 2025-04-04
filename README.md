@@ -1,6 +1,6 @@
-# duhzo_app
+# duh.zo - Your go to Vibe buddy
 
-A new Flutter project.
+A Flutter project for connecting to and managing BLE devices.
 
 ## Getting Started
 
