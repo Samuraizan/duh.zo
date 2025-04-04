@@ -1,0 +1,26 @@
+name: duhzo_app
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.5.0  # For BLE connectivity
+  permission_handler: ^10.4.0  # For handling permissions
+  flutter_bloc: ^8.1.3  # For state management
+  equatable: ^2.0.5  # For comparing objects
+  path_provider: ^2.1.0  # For file storage
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true 
